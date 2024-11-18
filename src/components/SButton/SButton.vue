@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="emit('click')">{{ props.label }}Hello</button>
+    <button class="text-red-300" @click="emit('click')">{{ props.label }}</button>
   </div>
 </template>
 <script setup lang="ts">
