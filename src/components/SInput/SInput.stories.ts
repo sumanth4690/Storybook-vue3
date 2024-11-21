@@ -16,6 +16,7 @@ export default {
       control: { type: 'select' },
     },
   },
+  tags: ['autodocs'],
 } as Meta<typeof Input>
 
 const Template: StoryFn<typeof Input> = (args) => ({
